@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI.csproj", "{276822F8-1B98-4255-B320-C63A454FFDDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KütüphaneDemo", "..\KütüphaneDemo\KütüphaneDemo.csproj", "{9A8A0BD8-C2D5-4FBD-A9D2-171CB016C1C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KütüphaneDemo", "KütüphaneDemo\KütüphaneDemo.csproj", "{9A8A0BD8-C2D5-4FBD-A9D2-171CB016C1C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
