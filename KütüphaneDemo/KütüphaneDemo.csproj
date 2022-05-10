@@ -44,7 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DVD.cs" />
+    <Compile Include="IKiralama.cs" />
+    <Compile Include="IKiralananKitap.cs" />
+    <Compile Include="IKiralananSesliKitap.cs" />
+    <Compile Include="IKitap.cs" />
     <Compile Include="IKutuphaneItem.cs" />
+    <Compile Include="ISesliKitap.cs" />
     <Compile Include="Kitap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

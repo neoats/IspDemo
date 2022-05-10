@@ -6,31 +6,14 @@ using System.Threading.Tasks;
 
 namespace KütüphaneDemo
 {
-    class ReferansKitap: IKutuphaneItem
+    class ReferansKitap: IKitap
     {
         public string KutuphaneId { get; set; }
         public string UrunAdı { get; set; }
 
         public string Yazar { get; set; }
-        public DateTime KiraTarih { get; set; }
-        public string Kiralayan { get; set; }
-        public int KalanGun { get; set; }
-       
+ 
         public int Sayfa { get; set; }
 
-        public DateTime BitisTarih()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void KontrolIn()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void KontrolOut(string kiralayan)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
