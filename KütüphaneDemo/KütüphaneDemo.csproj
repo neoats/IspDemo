@@ -43,20 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DVD.cs" />
-    <Compile Include="IDVD.cs" />
-    <Compile Include="IKiralananDVD.cs" />
+    <Compile Include="DVD\DVD.cs" />
+    <Compile Include="DVD\IDVD.cs" />
+    <Compile Include="DVD\IKiralananDVD.cs" />
     <Compile Include="IKiralama.cs" />
-    <Compile Include="IKiralananKitap.cs" />
-    <Compile Include="IKiralananSesliKitap.cs" />
-    <Compile Include="IKitap.cs" />
+    <Compile Include="Kitap\IKiralananKitap.cs" />
+    <Compile Include="SesliKitap\IKiralananSesliKitap.cs" />
+    <Compile Include="Kitap\IKitap.cs" />
     <Compile Include="IKutuphaneItem.cs" />
-    <Compile Include="ISesliKitap.cs" />
-    <Compile Include="Kitap.cs" />
+    <Compile Include="SesliKitap\ISesliKitap.cs" />
+    <Compile Include="Kitap\Kitap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReferansKitap.cs" />
-    <Compile Include="SesliKitap.cs" />
+    <Compile Include="Kitap\ReferansKitap.cs" />
+    <Compile Include="SesliKitap\SesliKitap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

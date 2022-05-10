@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KütüphaneDemo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +10,13 @@ namespace IspDemo
     class Program
     {
         static void Main(string[] args)
-        {
-            IKiralananDVD dvd = new d
+        {   //solid mantığı
+            //ikiralanan dvd sayesinde hem kiralama hem dvd hem kütüphaneid ye ulaşabiliyoruz
+            //propları interface kombinasyonlarıyla ayırdık
+            //tek bir interface te toplanında hepsini birden çağırıyor
+            IKiralananDVD dvd = new DVD();
+            DVD ad = new DVD();
+             
         }
     }
 }
