@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace KütüphaneDemo
 {
-    class DVD : IKutuphaneItem
+    class DVD : IKiralananDVD
     {
-        public string Yazar { get; set; }
+        public string KutuphaneId { get; set; }
+     
         public string UrunAdı { get; set; }
 
         public DateTime KiraTarih { get; set; }
         public string Kiralayan { get; set; }
-        public int KalanGun { get ; set; }
-        public string KutuphaneId { get; set; }
-        public int Sayfa { get ; set ; }
+        public int KalanGun { get; set; } = 14;
+        public List<string> Actors { get; set; }
+        public int CalmaSuresi { get; set; }
 
         public DateTime BitisTarih()
         {
@@ -24,12 +25,13 @@ namespace KütüphaneDemo
 
         public void KontrolIn()
         {
-            throw new NotImplementedException();
+            Kiralayan = "";
         }
 
         public void KontrolOut(string kiralayan)
         {
-            throw new NotImplementedException();
+            Kiralayan = kiralayan;
+            KiraTarih = DateTime.Now;
         }
     }
 }

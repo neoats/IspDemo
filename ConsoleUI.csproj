@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KütüphaneDemo\KütüphaneDemo.csproj">
+      <Project>{9a8a0bd8-c2d5-4fbd-a9d2-171cb016c1c8}</Project>
+      <Name>KütüphaneDemo</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

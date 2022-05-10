@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IspDemo
+namespace KütüphaneDemo
 {
-    class Program
+    interface IKiralananDVD : IDVD , IKiralama
     {
-        static void Main(string[] args)
-        {
-            IKiralananDVD dvd = new d
-        }
+
     }
 }
