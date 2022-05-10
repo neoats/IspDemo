@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KütüphaneDemo
 {
-    interface IKiralananDVD : IDVD , IKiralama
+    public interface IKiralananDVD : IDVD , IKiralama
     {
 
     }

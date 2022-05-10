@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KütüphaneDemo
 {
-    class DVD : IKiralananDVD
+    public class DVD : IKiralananDVD
     {
         public string KutuphaneId { get; set; }
      
