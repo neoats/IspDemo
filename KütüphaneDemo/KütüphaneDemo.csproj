@@ -46,11 +46,11 @@
     <Compile Include="DVD\DVD.cs" />
     <Compile Include="DVD\IDVD.cs" />
     <Compile Include="DVD\IKiralananDVD.cs" />
-    <Compile Include="IKiralama.cs" />
+    <Compile Include="BaseInterface\IKiralama.cs" />
     <Compile Include="Kitap\IKiralananKitap.cs" />
     <Compile Include="SesliKitap\IKiralananSesliKitap.cs" />
     <Compile Include="Kitap\IKitap.cs" />
-    <Compile Include="IKutuphaneItem.cs" />
+    <Compile Include="BaseInterface\IKutuphaneItem.cs" />
     <Compile Include="SesliKitap\ISesliKitap.cs" />
     <Compile Include="Kitap\Kitap.cs" />
     <Compile Include="Program.cs" />
