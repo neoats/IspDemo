@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DijitalFilm\DijitalFilm.cs" />
     <Compile Include="DVD\DVD.cs" />
     <Compile Include="DVD\IDVD.cs" />
     <Compile Include="DVD\IKiralananDVD.cs" />
